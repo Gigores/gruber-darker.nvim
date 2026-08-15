@@ -22,8 +22,8 @@ M.highlights.compile_mode_info = Highlight.new("CompileModeInfo", { link = grube
 
 M.highlights.compile_mode_command_output = Highlight.new("CompileModeCommandOutput", { link = gruber_hl.niagara })
 M.highlights.compile_mode_directory_message = Highlight.new("CompileModeDirectoryMessage", { link = gruber_hl.niagara })
-M.highlights.compile_mode_directory_message = Highlight.new("CompileModeOutputFile", { link = gruber_hl.yellow_bold })
-M.highlights.compile_mode_directory_message = Highlight.new("CompileModeCheckResult", { link = gruber_hl.wisteria_bold })
-M.highlights.compile_mode_directory_message = Highlight.new("CompileModeCheckTarget", { link = gruber_hl.wisteria_bold })
+M.highlights.compile_mode_output_file = Highlight.new("CompileModeOutputFile", { link = gruber_hl.yellow_bold })
+M.highlights.compile_mode_check_result = Highlight.new("CompileModeCheckResult", { link = gruber_hl.wisteria_bold })
+M.highlights.compile_mode_check_target = Highlight.new("CompileModeCheckTarget", { link = gruber_hl.wisteria_bold })
 
 return M
